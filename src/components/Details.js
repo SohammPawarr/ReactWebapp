@@ -176,7 +176,7 @@ const Details = () => {
       description: 'Comprehensive overview of the Rajgruha redevelopment project',
       icon: <FaFilePdf className="icon" />,
       type: 'PDF',
-      url: process.env.PUBLIC_URL + '/documents/projectbrochure.pdf'
+      url: '/documents/Project Brochure.pdf'
     },
     {
       id: 2,
@@ -184,7 +184,7 @@ const Details = () => {
       description: 'Detailed floor plans for all unit types',
       icon: <FaFileAlt className="icon" />,
       type: 'PDF',
-      url: process.env.PUBLIC_URL + '/documents/floorplans.pdf'
+      url: '/documents/Floor Plans.pdf'
     },
     {
       id: 3,
@@ -192,7 +192,7 @@ const Details = () => {
       description: 'Important legal information and approvals',
       icon: <FaFilePdf className="icon" />,
       type: 'PDF',
-      url: process.env.PUBLIC_URL + '/documents/LegalDocuments.pdf'
+      url: '/documents/Legal Documents.pdf'
     },
     {
       id: 4,
@@ -200,7 +200,7 @@ const Details = () => {
       description: 'Complete list of amenities and facilities',
       icon: <FaFileAlt className="icon" />,
       type: 'PDF',
-      url: process.env.PUBLIC_URL + '/documents/AmenitiesList.pdf'
+      url: '/documents/Amenities List.pdf'
     },
     {
       id: 5,
@@ -208,7 +208,7 @@ const Details = () => {
       description: 'Project phases and expected completion dates',
       icon: <FaFilePdf className="icon" />,
       type: 'PDF',
-      url: process.env.PUBLIC_URL + '/documents/ConstructionTimeline.pdf'
+      url: '/documents/Construction Timeline.pdf'
     },
     {
       id: 6,
@@ -216,7 +216,7 @@ const Details = () => {
       description: 'Payment plans and financial information',
       icon: <FaFileAlt className="icon" />,
       type: 'PDF',
-      url: process.env.PUBLIC_URL + '/documents/PaymentSchedule.pdf'
+      url: '/documents/Payment Schedule.pdf'
     }
   ];
 
